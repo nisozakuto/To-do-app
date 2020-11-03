@@ -13,5 +13,6 @@ const pgp = require('pg-promise')(options)
 module.exports = pgp({
     database: process.env.DB_NAME,
     port: 5432,
-    host: 'localhost',
+    host: 'localhost'
+
 })
